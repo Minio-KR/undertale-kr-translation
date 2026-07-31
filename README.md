@@ -10,10 +10,9 @@ README 작성 예정
 1. UndertaleModTool( https://github.com/UnderminersTeam/UndertaleModTool )로 게임의 data.win 파일을 연다.
 2. Scripts -> Resource Importers -> ImportAllEmbeddedTextures.csx -> 'EmbeddedTextures(_DRMFREE)' 폴더 선택.<br>(Failed 메시지는 모두 '확인'을 눌러 넘길 것.)
 3. Scripts -> Resource Importers -> ImportFonts.csx -> 'fonts' 폴더 선택.
-4. Scripts -> Resource Importers -> ImportFonts.csx -> 'fonts' 폴더 선택.
-5. Scripts -> Resource Importers -> ImportGML.csx -> 'codes' 폴더 선택 -> '아니요' 선택.
-6. Scripts -> Resource Importers -> ImportSingleSound.csx -> 'snd_wonderfulidea.wav' 파일 선택 -> '아니요' 선택.
-7. 다음 사항들을 수동으로 편집.
+4. Scripts -> Resource Importers -> ImportGML.csx -> 'codes' 폴더 선택 -> '아니요' 선택.
+5. Scripts -> Resource Importers -> ImportSingleSound.csx -> 'snd_wonderfulidea.wav' 파일 선택 -> '아니요' 선택.
+6. 다음 사항들을 수동으로 편집.
    1) Data/Fonts -> 'fnt_curs' -> Scale '1.5' / '1.5'
    2) Data/Sprites -> 'spr_6hope' -> Textures '...' -> <br>- Source position/size '980' / '1008' / '42' / '14'<br>- Target position/size '1' / '1' / '42' / '14'<br>- Bounding size '43' / '15'
    3) Data/Sprites -> 'spr_wordfall2' -> Textures '...' -> <br>Source position/size '992' / '1984' / '32' / '15'<br>- Target position/size '3' / '1' / '32' / '15'<br>- Bounding size '37' / '17'
